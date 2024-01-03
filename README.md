@@ -12,25 +12,19 @@ This repository contains the backend RESTful API for a full-fledged E-commerce p
 - Stripe API (for credit card payments)
 
 # Features
-# - Product and Category Management:
-CRUD operations for products and categories.
-Search, Sort, Pagination, and Filtering:
-Advanced searching and filtering options for products.
-Discount Coupon Code:
-Ability to apply discount codes during checkout.
-Authentication and Authorization:
-User authentication using JWT and role-based authorization.
-Image Upload & Processing:
-Upload and process images for products using Multer and Sharp.
-Password Management:
-Forgot/reset password functionality and email confirmation on signup.
-Rating System:
-Star rating system for products.
-Payment Integration:
-Stripe API for credit card payments.
-Cash on Delivery:
-Option for cash on delivery without online payment.
-Advanced Database Operations:
-Utilizing Mongoose for complex queries and relationships between collections.
-Data Storage:
-Store and retrieve complex data structures in MongoDB.
+# - Product and Category Management
+-- Product Management
+The product management functionality within this API encompasses a range of operations allowing for comprehensive handling of products within the E-commerce platform:
+
+-- Create Product:
+
+Create new products with detailed information such as title, description, price, images, and other relevant attributes.
+Read Product Details:
+
+Retrieve specific product details using its unique identifier, accessing information like title, description, price, images, ratings, and availability.
+Update Product Information:
+
+Modify and update existing product details, including attributes like title, description, price, images, and any other relevant information.
+Delete Product:
+
+Remove products from the platform based on their unique identifier, facilitating the elimination of outdated or irrelevant items.
