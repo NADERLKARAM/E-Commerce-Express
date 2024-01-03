@@ -118,3 +118,56 @@ Password Management
 
 - Password Encryption: User passwords are securely hashed and stored using industry-standard encryption algorithms to maintain confidentiality.
 
+
+# Image Upload & Processing
+The API facilitates the seamless uploading and processing of images for products, ensuring high-quality visuals and efficient handling of image-related tasks.
+
+Image Upload
+- File Upload: Users can upload images for products, utilizing endpoints that handle file uploads.
+
+- Multer for File Handling: Multer middleware is employed for handling multipart/form-data, enabling smooth image uploads.
+
+Image Processing
+- Sharp for Image Processing: Sharp library processes uploaded images, enabling resizing, compression, and format conversion.
+
+- Optimized Images: Processed images are optimized for web use, ensuring fast loading times without compromising quality.
+
+# Password Management
+The API incorporates secure and user-friendly password management functionalities, ensuring the confidentiality and integrity of user credentials.
+
+Forgot/Reset Password
+- Password Reset Request: Users can initiate a password reset process if forgotten, receiving a secure link or token via email.
+
+- Token-based Verification: Secure tokens are used for password reset verification, ensuring authenticity and security.
+
+# Rating System
+A comprehensive rating system is implemented to allow users to rate and review products, providing valuable feedback and insights.
+
+Product Ratings
+- User Ratings: Users can rate products based on their experiences, providing numerical ratings or reviews.
+
+- Aggregate Ratings: The API aggregates ratings to display average product ratings for users' reference.
+
+
+# Payment Integration
+The API seamlessly integrates with external payment gateways to facilitate secure online transactions.
+
+Stripe Integration
+- Secure Payments: Integration with Stripe API allows secure credit card payments during checkout.
+- Transaction Handling: The API manages payment transactions, ensuring reliability and security.
+
+
+# Cash on Delivery
+The API provides flexibility by allowing users to opt for cash on delivery (COD), bypassing online payment requirements.
+
+COD Option
+- Payment Flexibility: Users can choose the cash on delivery option, enabling payment upon product delivery without online transactions.
+
+# Advanced Database Operations and Data Storage
+The API leverages advanced MongoDB operations and storage mechanisms for efficient data handling and storage.
+
+Mongoose Queries and Relationships
+- Complex Queries: Utilization of Mongoose allows for intricate queries and searches across database collections.
+
+- Database Relationships: Establishing and managing relationships between database collections for data consistency.
+
