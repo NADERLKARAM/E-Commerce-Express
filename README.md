@@ -76,3 +76,23 @@ Users can filter products based on categories, attributes, or specific criteria,
 - Customized Filtering Options:
 Custom filters enable users to set criteria based on price ranges, ratings, sizes, colors, or any other product-specific attributes.
 
+
+# Discount Coupon Code
+The API incorporates a robust discount coupon system, allowing users to apply and redeem discount codes during the checkout process for eligible purchases.
+
+Applying Discount Codes
+- Code Redemption: Users can input a valid discount code during checkout to apply a discount to their order total.
+Validation and Verification: The API validates the entered code to ensure its authenticity and eligibility for the current purchase.
+
+Types of Discounts
+- Percentage-Based Discounts: Coupons can offer percentage-based discounts on the total purchase amount.
+
+- Fixed Amount Discounts: Coupons can provide a fixed monetary deduction from the total order value.
+
+- Free Shipping or Additional Benefits: Some coupons may offer free shipping or additional perks alongside discounts.
+
+# Coupon Management
+- Creation and Configuration: Admins or authorized users can create and configure various types of discount coupons.
+- Expiry and Usage Limits: Coupons can be set with expiry dates and usage limitations (e.g., single-use, multiple-use per user, usage limits across all users).
+- Validation Rules: Rules and conditions can be attached to coupons, such as minimum purchase thresholds or specific product categories applicable for discounts.
+
