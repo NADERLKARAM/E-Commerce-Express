@@ -96,3 +96,25 @@ Types of Discounts
 - Expiry and Usage Limits: Coupons can be set with expiry dates and usage limitations (e.g., single-use, multiple-use per user, usage limits across all users).
 - Validation Rules: Rules and conditions can be attached to coupons, such as minimum purchase thresholds or specific product categories applicable for discounts.
 
+# Authentication and Authorization
+The API implements a robust authentication and authorization system to ensure secure access to resources and functionalities within the E-commerce platform.
+
+Authentication
+- User Authentication: Users are required to authenticate themselves before accessing protected endpoints or performing sensitive operations.
+
+- JWT-based Authentication: JSON Web Tokens (JWT) are utilized for authentication, providing secure and stateless access control.
+
+- Login and Token Generation: Upon successful login, users receive a JWT token used to authenticate subsequent requests.
+
+ Authorization
+- Role-Based Access Control (RBAC): The API employs RBAC to manage user permissions and access levels based on roles (e.g., admin, user).
+
+- Restricted Endpoints: Certain endpoints and functionalities are restricted based on user roles, ensuring authorized access only.
+
+- Middleware for Authorization: Middleware functions are implemented to validate user roles and permissions before granting access to resources.
+
+Password Management
+- Forgot/Reset Password: Users can initiate the password reset process if forgotten, receiving a secure link or token via email.
+
+- Password Encryption: User passwords are securely hashed and stored using industry-standard encryption algorithms to maintain confidentiality.
+
