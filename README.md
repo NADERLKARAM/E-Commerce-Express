@@ -13,7 +13,7 @@ This repository contains the backend RESTful API for a full-fledged E-commerce p
 
 # Features
 # - Product and Category Management
--- Product Management
+- - Product Management
 The product management functionality within this API encompasses a range of operations allowing for comprehensive handling of products within the E-commerce platform:
 
 -- Create Product:
