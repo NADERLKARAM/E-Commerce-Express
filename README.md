@@ -12,11 +12,11 @@ This repository contains the backend RESTful API for a full-fledged E-commerce p
 - Stripe API (for credit card payments)
 
 # Features
-# - Product and Category Management
-- - Product Management
+# Product and Category Management
+- Product Management:
 The product management functionality within this API encompasses a range of operations allowing for comprehensive handling of products within the E-commerce platform:
 
--- Create Product:
+- Create Product:
 
 Create new products with detailed information such as title, description, price, images, and other relevant attributes.
 Read Product Details:
