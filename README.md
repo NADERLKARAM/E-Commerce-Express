@@ -19,12 +19,15 @@ The product management functionality within this API encompasses a range of oper
 - Create Product:
 
 Create new products with detailed information such as title, description, price, images, and other relevant attributes.
-Read Product Details:
 
+- Read Product Details:
+  
 Retrieve specific product details using its unique identifier, accessing information like title, description, price, images, ratings, and availability.
-Update Product Information:
+
+- Update Product Information:
 
 Modify and update existing product details, including attributes like title, description, price, images, and any other relevant information.
-Delete Product:
+
+- Delete Product:
 
 Remove products from the platform based on their unique identifier, facilitating the elimination of outdated or irrelevant items.
