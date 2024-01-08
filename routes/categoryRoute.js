@@ -32,8 +32,8 @@ router
   .post(
     authService.protect,
     authService.allowedTo('admin', 'manager'),
-    uploadCategoryImage,
-    resizeImage,
+    // uploadCategoryImage,
+    // resizeImage,
     createCategoryValidator,
     createCategory
   );
