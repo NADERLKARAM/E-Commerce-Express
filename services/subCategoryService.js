@@ -1,6 +1,6 @@
 const factory = require('./handlersFactory');
 
-//commit
+
 const SubCategory = require('../models/subCategoryModel');
 
 exports.setCategoryIdToBody = (req, res, next) => {
